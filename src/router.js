@@ -51,6 +51,11 @@ const routes = [
     name: "parentcomponent",
     component: () => import("../src/views/ParentComponentView.vue"),
   },
+  {
+    path: "/parentcomponent2",
+    name: "parentcomponent2",
+    component: () => import("../src/views/ParentComponentView2.vue"),
+  },
 ];
 
 // 2. 라우터 생성
