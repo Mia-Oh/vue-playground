@@ -46,6 +46,11 @@ const routes = [
     name: "nestedcomponent",
     component: () => import("../src/views/NestedComponent.vue"),
   },
+  {
+    path: "/parentcomponent",
+    name: "parentcomponent",
+    component: () => import("../src/views/ParentComponentView.vue"),
+  },
 ];
 
 // 2. 라우터 생성
