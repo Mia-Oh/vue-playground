@@ -7,7 +7,7 @@
       <router-link to="/databinding">Data Binding</router-link> |
       <router-link to="/watch">Watch</router-link> |
       <router-link to="/computed">Computed</router-link> |
-      <router-link to="/parentcomponent2">Parent Component</router-link> |
+      <router-link to="/parentcomponent">Parent Component</router-link> |
       <router-link to="/nestedcomponent">Nested Component</router-link>
     </nav>
     <router-view />
