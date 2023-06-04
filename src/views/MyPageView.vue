@@ -13,14 +13,7 @@
   </div>
 </template>
 <script>
-import day6Mixin from "../mixins/mixin";
-export default {
-  mixins: [day6Mixin], // 사용할 믹스인 파일을 배열로 등록
-  created() {
-    this.helloDay6();
-  },
-  data() {},
-};
+export default {};
 </script>
 <style>
 .this:last-child span:last-of-type {

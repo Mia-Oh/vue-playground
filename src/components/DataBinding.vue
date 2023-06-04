@@ -1,5 +1,5 @@
 <template>
-  <input @keyup.enter="keyupEnter()" />
+  <input type="text" @keyup.enter="keyupEnter" v-focus />
 </template>
 
 <script>
@@ -13,6 +13,13 @@ export default {
   methods: {
     keyupEnter() {
       alert("Enter");
+    },
+  },
+  directives: {
+    focus: {
+      inserted(el) {
+        el.focus();
+      },
     },
   },
 };
