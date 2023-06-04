@@ -17,7 +17,7 @@ module.exports = {
     "vue/multi-word-component-names": [
       "error",
       {
-        ignores: ["Left", "Right"],
+        ignores: ["Left", "Right"], // 단일 vue 파일명 사용 가능하게 예외 파일 등록
       },
     ],
   },
