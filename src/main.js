@@ -4,6 +4,7 @@ import router from "./router";
 import store from "./store";
 
 import mixin from "./mixins/mixin";
+import { i18n } from "@/lang/lang.js";
 
 Vue.mixin(mixin);
 
@@ -21,5 +22,6 @@ Vue.config.productionTip = false;
 new Vue({
   router,
   store,
+  i18n,
   render: (h) => h(App),
 }).$mount("#app");
