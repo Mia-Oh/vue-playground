@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <header-layout />
     <nav>
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
@@ -13,7 +14,14 @@
     <router-view />
   </div>
 </template>
-
+<script>
+import HeaderLayout from "./components/HeaderLayout.vue";
+export default {
+  components: {
+    "header-layout": HeaderLayout,
+  },
+};
+</script>
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
